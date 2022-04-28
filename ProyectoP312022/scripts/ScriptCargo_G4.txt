@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tbl_cargo (
+	idcargo INT NOT NULL AUTO_INCREMENT,
+	nombrecargo VARCHAR(45) NOT NULL,
+        estatuscargo VARCHAR(40) NOT NULL,
+  	PRIMARY KEY (idcargo) )
+ENGINE = InnoDB CHARACTER SET = latin1;
