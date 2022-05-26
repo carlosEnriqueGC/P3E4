@@ -134,12 +134,12 @@ empleadoss.addItem("seleccione:");
    if(calculos == 2){
    
      if (conceptos.equals(igss)){
-   double porcentaje = (numero2 * numero1) / 100;
+   double porcentaje = (numero2 * numero1)/100;
    salario.setText(String.valueOf(numero1 - porcentaje));
    
    }
      else if (isr.equals(conceptos)){
-   double porcentaje = (numero2 * numero1) / 100;
+   double porcentaje = (numero2 * numero1)/100;
    salario.setText(String.valueOf(numero1 - porcentaje));
    
    }else{
